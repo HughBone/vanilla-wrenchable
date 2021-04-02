@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " ##",
+    "$  "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gold_ingot"
+    },
+    "$": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "minecraft:carrot_on_a_stick",
+    "data": {
+      "display": {
+        "Name": "{\"text\":\"Wrench\"}"
+      }
+    }
+  }
+}
