@@ -7,14 +7,18 @@ plugins {
 sourceCompatibility = JavaVersion.VERSION_1_8
 targetCompatibility = JavaVersion.VERSION_1_8
 
+/*
 if(rootProject.file('private.gradle').exists()) { //Publishing details
 	apply from: 'private.gradle'
 }
+ */
 
 archivesBaseName = project.archives_base_name
-version = "${project.mod_version}+${project.minecraft_version}"
+
+version = "${project.mod_version}"// OLD: version = "${project.mod_version}+${project.minecraft_version}"
 group = project.maven_group
 
+/*
 bintray {
 	user = System.getenv("BINTRAY_USER")
 	key = System.getenv("BINTRAY_KEY")
@@ -31,21 +35,13 @@ bintray {
 		}
 	}
 }
+ */
 
 minecraft {
 }
 
 repositories {
-
 	maven { url "https://maven.fabricmc.net/io/github/prospector/modmenu/ModMenu/" }
- 	maven {
-    	name = "grondag"
-    	url = "https://grondag-repo.appspot.com"
-    	credentials {
-            username "guest"
-            password ""
-		}
-    }
 }
 
 dependencies {
@@ -56,12 +52,6 @@ dependencies {
 
 	modCompile "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-	/*
-	modImplementation ("grondag:fermion-mc116:${project.fermion_version}") { transitive = false }
-	modImplementation ("grondag:fermion-modkeys-mc116:${project.fermion_modkeys_version}") { transitive = false }
-	include "grondag:fermion-mc116:${project.fermion_version}"
-    include "grondag:fermion-modkeys-mc116:${project.fermion_modkeys_version}"
-	 */
 }
 
 processResources {
@@ -101,6 +91,7 @@ jar {
 	from "LICENSE"
 }
 
+/*
 publishing {
 	publications {
 		WrenchablePublication(MavenPublication) {
@@ -122,3 +113,4 @@ publishing {
 		mavenLocal()
 	}
 }
+ */
