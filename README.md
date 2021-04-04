@@ -1,15 +1,13 @@
-# Wrenchable
-A lightweight, JiJ-able wrench library which aims to make wrenches compatible between mods.
+# Vanilla-Wrenchable
+Minecraft Fabric mod using Zundrel's Wrenchable API (https://github.com/Zundrel/Wrenchable) but modified to work on both clients and servers. For example, a vanilla client can connect to a server using the mod and wrench away!
 
-To include it in your project, add this to your build.gradle:
-```groovy
-maven {
-    name = "Wrenchable"
-    url  "https://dl.bintray.com/zundrel/wrenchable"
-}
-dependencies {
-    modApi 'com.zundrel:wrenchable:LATEST'
-    include 'com.zundrel:wrenchable:LATEST'
-}
-```
-Where `LATEST` is the latest tag under the releases tab.
+## Crafting
+![](readme-images/wrench_recipe.png)
+
+## How to use:
+* Right click any rotatable block (i.e. pistons, stairs, glazed_terracotta)
+* Sneak and right click for wrench modifier (i.e. rotate pistons vertically)
+
+## Future Plans
+* Config file to change crafting recipe
+* Right now, any carrot on a stick named "Wrench" will work. That is cringe. We only want the wrench that gets crafted to work.
