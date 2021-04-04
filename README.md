@@ -1,5 +1,5 @@
 # Vanilla-Wrenchable
-Minecraft Fabric mod using Zundrel's Wrenchable API (https://github.com/Zundrel/Wrenchable) but modified to work on both clients and servers. For example, a vanilla client can connect to a server using the mod and wrench away!
+Minecraft Fabric wrench mod using Zundrel's Wrenchable API (https://github.com/Zundrel/Wrenchable) but modified to work on both clients and servers. Use the wrench to easily rotate blocks.
 
 ## Crafting
 ![](readme-images/wrench_recipe.png)
