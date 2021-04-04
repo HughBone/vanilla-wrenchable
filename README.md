@@ -8,6 +8,9 @@ Minecraft Fabric mod using Zundrel's Wrenchable API (https://github.com/Zundrel/
 * Right click any rotatable block (i.e. pistons, stairs, glazed_terracotta)
 * Sneak and right click for wrench modifier (i.e. rotate pistons vertically)
 
+## Requirements
+* nbt-crafting - https://www.curseforge.com/minecraft/mc-mods/nbt-crafting
+
 ## Future Plans
 * Config file to change crafting recipe
 * Right now, any carrot on a stick named "Wrench" will work. That is cringe. We only want the wrench that gets crafted to work.
