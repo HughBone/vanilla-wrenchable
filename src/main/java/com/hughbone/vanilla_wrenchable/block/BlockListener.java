@@ -1,4 +1,4 @@
-package com.hughbone.wrenchable.block;
+package com.hughbone.vanilla_wrenchable.block;
 
 import net.minecraft.block.Block;
 import net.minecraft.util.Identifier;

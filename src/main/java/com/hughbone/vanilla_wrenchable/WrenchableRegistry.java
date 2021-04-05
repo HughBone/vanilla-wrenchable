@@ -1,11 +1,11 @@
-package com.hughbone.wrenchable;
+package com.hughbone.vanilla_wrenchable;
 
 import com.mojang.serialization.Lifecycle;
-import com.hughbone.wrenchable.block.InstanceListener;
-import com.hughbone.wrenchable.block.BlockListener;
-import com.hughbone.wrenchable.block.PropertyListener;
-import com.hughbone.wrenchable.wrench.Wrench;
-import com.hughbone.wrenchable.wrench.WrenchListener;
+import com.hughbone.vanilla_wrenchable.block.InstanceListener;
+import com.hughbone.vanilla_wrenchable.block.BlockListener;
+import com.hughbone.vanilla_wrenchable.block.PropertyListener;
+import com.hughbone.vanilla_wrenchable.wrench.Wrench;
+import com.hughbone.vanilla_wrenchable.wrench.WrenchListener;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.state.property.Property;

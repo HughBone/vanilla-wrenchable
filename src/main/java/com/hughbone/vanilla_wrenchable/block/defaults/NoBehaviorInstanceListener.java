@@ -1,6 +1,6 @@
-package com.hughbone.wrenchable.block.defaults;
+package com.hughbone.vanilla_wrenchable.block.defaults;
 
-import com.hughbone.wrenchable.block.InstanceListener;
+import com.hughbone.vanilla_wrenchable.block.InstanceListener;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.world.World;

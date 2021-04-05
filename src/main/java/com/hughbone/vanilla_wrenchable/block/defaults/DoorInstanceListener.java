@@ -1,7 +1,7 @@
-package com.hughbone.wrenchable.block.defaults;
+package com.hughbone.vanilla_wrenchable.block.defaults;
 
-import com.hughbone.wrenchable.block.InstanceListener;
-import com.hughbone.wrenchable.WrenchableUtilities;
+import com.hughbone.vanilla_wrenchable.block.InstanceListener;
+import com.hughbone.vanilla_wrenchable.WrenchableUtilities;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.DoorBlock;

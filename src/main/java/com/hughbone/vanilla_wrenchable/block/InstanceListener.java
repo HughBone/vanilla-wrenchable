@@ -1,4 +1,4 @@
-package com.hughbone.wrenchable.block;
+package com.hughbone.vanilla_wrenchable.block;
 
 public abstract class InstanceListener implements BlockWrenchable {
     private Class block;

@@ -1,6 +1,6 @@
-package com.hughbone.wrenchable;
+package com.hughbone.vanilla_wrenchable;
 
-import com.hughbone.wrenchable.wrench.Wrench;
+import com.hughbone.vanilla_wrenchable.wrench.Wrench;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.BlockHalf;
 import net.minecraft.entity.player.PlayerEntity;

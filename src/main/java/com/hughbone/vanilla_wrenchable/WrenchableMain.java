@@ -1,9 +1,9 @@
-package com.hughbone.wrenchable;
+package com.hughbone.vanilla_wrenchable;
 
-import com.hughbone.wrenchable.block.InstanceListener;
-import com.hughbone.wrenchable.block.PropertyListener;
-import com.hughbone.wrenchable.block.defaults.*;
-import com.hughbone.wrenchable.wrench.WrenchListener;
+import com.hughbone.vanilla_wrenchable.block.InstanceListener;
+import com.hughbone.vanilla_wrenchable.block.PropertyListener;
+import com.hughbone.vanilla_wrenchable.block.defaults.*;
+import com.hughbone.vanilla_wrenchable.wrench.WrenchListener;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.block.BedBlock;
 import net.minecraft.item.Items;

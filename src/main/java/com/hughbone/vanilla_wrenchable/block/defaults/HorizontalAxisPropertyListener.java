@@ -1,6 +1,6 @@
-package com.hughbone.wrenchable.block.defaults;
+package com.hughbone.vanilla_wrenchable.block.defaults;
 
-import com.hughbone.wrenchable.block.PropertyListener;
+import com.hughbone.vanilla_wrenchable.block.PropertyListener;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.player.PlayerEntity;
@@ -10,9 +10,9 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.world.World;
 
-public class AxisPropertyListener extends PropertyListener {
-    public AxisPropertyListener() {
-        super(Properties.AXIS);
+public class HorizontalAxisPropertyListener extends PropertyListener {
+    public HorizontalAxisPropertyListener() {
+        super(Properties.HORIZONTAL_AXIS);
     }
 
     @Override
@@ -21,12 +21,11 @@ public class AxisPropertyListener extends PropertyListener {
         BlockState state = world.getBlockState(pos);
         Block block = state.getBlock();
 
+        // hughtest
         if (player.isSneaking()) {
             Direction.Axis axis = Direction.Axis.X;
 
-            if (result.getSide() == Direction.UP || result.getSide() == Direction.DOWN)
-                axis = Direction.Axis.Y;
-            else if (result.getSide() == Direction.NORTH || result.getSide() == Direction.SOUTH)
+            if (player.getHorizontalFacing() == Direction.NORTH || player.getHorizontalFacing() == Direction.SOUTH)
                 axis = Direction.Axis.Z;
 
             world.setBlockState(pos, state.with(Properties.AXIS, axis));
@@ -34,7 +33,7 @@ public class AxisPropertyListener extends PropertyListener {
             return;
         }
 
-        world.setBlockState(pos, state.cycle(Properties.AXIS));
+        world.setBlockState(pos, state.cycle(Properties.HORIZONTAL_AXIS));
         world.updateNeighbor(pos, block, pos);
         return;
     }

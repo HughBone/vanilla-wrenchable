@@ -1,9 +1,8 @@
-package com.hughbone.wrenchable.block.defaults;
+package com.hughbone.vanilla_wrenchable.block.defaults;
 
-import com.hughbone.wrenchable.block.InstanceListener;
-import com.hughbone.wrenchable.WrenchableUtilities;
+import com.hughbone.vanilla_wrenchable.block.InstanceListener;
+import com.hughbone.vanilla_wrenchable.WrenchableUtilities;
 import net.minecraft.block.*;
-import net.minecraft.block.entity.SignBlockEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
@@ -19,7 +18,6 @@ public class SignInstanceListener extends InstanceListener {
         BlockPos pos = result.getBlockPos();
         BlockState state = world.getBlockState(pos);
         Block block = state.getBlock();
-        SignBlockEntity blockEntity = (SignBlockEntity) world.getBlockEntity(pos);
 
         if (block instanceof SignBlock) {
             WrenchableUtilities.doRotationBehavior(world, player, result);

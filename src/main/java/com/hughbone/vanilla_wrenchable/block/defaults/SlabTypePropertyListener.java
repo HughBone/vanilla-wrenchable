@@ -1,6 +1,6 @@
-package com.hughbone.wrenchable.block.defaults;
+package com.hughbone.vanilla_wrenchable.block.defaults;
 
-import com.hughbone.wrenchable.block.PropertyListener;
+import com.hughbone.vanilla_wrenchable.block.PropertyListener;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.enums.SlabType;

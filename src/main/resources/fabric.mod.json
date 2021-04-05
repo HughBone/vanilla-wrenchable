@@ -6,12 +6,11 @@
   "name": "Wrenchable",
   "description": "A library designed for allowing interactivity of wrenches between various mods.",
   "authors": [
-    "Zundrel"
+    "HughBone"
   ],
   "contact": {
-    "homepage": "http://zundrel.com/",
-    "sources": "https://github.com/Zundrel/Wrenchable-API",
-	"issues": "https://github.com/Zundrel/Wrenchable-API/issues"
+    "sources": "https://github.com/HughBone/vanilla-wrenchable",
+	"issues": "https://github.com/HughBone/vanilla-wrenchable/issues"
   },
 
   "license": "MIT",
@@ -20,11 +19,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.zundrel.wrenchable.WrenchableMain"
+      "com.hughbone.vanilla_wrenchable.WrenchableMain"
     ]
   },
   "mixins": [
-    "wrenchable.mixins.json"
   ],
 
   "depends": {

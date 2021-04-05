@@ -1,4 +1,4 @@
-package com.hughbone.wrenchable.wrench;
+package com.hughbone.vanilla_wrenchable.wrench;
 
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.entity.player.PlayerEntity;
