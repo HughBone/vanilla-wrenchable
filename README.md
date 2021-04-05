@@ -1,5 +1,5 @@
 # Vanilla-Wrenchable
-Minecraft Fabric wrench mod using Zundrel's Wrenchable API (https://github.com/Zundrel/Wrenchable) but modified to work on both clients and servers. Use the wrench to easily rotate blocks like pistons, stairs, glazed terracotta, etc.
+Minecraft Fabric wrench mod using [Zundrel's Wrenchable API](https://github.com/Zundrel/Wrenchable) but modified to work server-side (Works on singleplayer too!). Use the wrench to easily rotate blocks like pistons, stairs, glazed terracotta, etc.
 
 ## Crafting
 ![](readme-images/wrench_recipe.png)
