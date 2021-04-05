@@ -157,7 +157,6 @@ public class WrenchableUtilities {
         BlockState state = world.getBlockState(pos);
         Block block = state.getBlock();
 
-        // hughtest
         if (player.isSneaking()) {
             if (block instanceof SkullBlock)
                 world.setBlockState(pos, state.with(Properties.ROTATION, MathHelper.floor((double)((player.yaw) * 16.0F / 360.0F) + 0.5D) & 15));

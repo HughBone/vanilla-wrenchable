@@ -8,7 +8,6 @@ import com.hughbone.vanilla_wrenchable.wrench.Wrench;
 import com.hughbone.vanilla_wrenchable.wrench.WrenchListener;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
-import net.minecraft.state.property.Property;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.*;
 
@@ -38,14 +37,6 @@ public class WrenchableRegistry {
 
     public static boolean isBlockInstanceWrenchable(Block block) {
         return getBlockInstanceWrenchable(block) != null;
-    }
-
-    public static PropertyListener getPropertyWrenchable(Property property) {
-        return PROPERTY_LISTENERS.stream().filter(it -> it.getProperty().equals(property)).findAny().orElse(null);
-    }
-
-    public static boolean isPropertyWrenchable(Property property) {
-        return getPropertyWrenchable(property) != null;
     }
 
     public static Wrench getWrench(Item item) {

@@ -21,7 +21,6 @@ public class HorizontalAxisPropertyListener extends PropertyListener {
         BlockState state = world.getBlockState(pos);
         Block block = state.getBlock();
 
-        // hughtest
         if (player.isSneaking()) {
             Direction.Axis axis = Direction.Axis.X;
 
