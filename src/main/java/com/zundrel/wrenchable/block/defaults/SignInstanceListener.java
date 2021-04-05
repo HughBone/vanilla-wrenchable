@@ -21,18 +21,6 @@ public class SignInstanceListener extends InstanceListener {
         Block block = state.getBlock();
         SignBlockEntity blockEntity = (SignBlockEntity) world.getBlockEntity(pos);
 
-        // Kind of edit signs??
-        /*
-        if (player.isSneaking() && world.getBlockEntity(result.getBlockPos()) instanceof SignBlockEntity) {
-            if (world.isClient()) {
-                blockEntity.setEditor(player);
-                blockEntity.setEditable(true);
-                player.openEditSignScreen((SignBlockEntity) world.getBlockEntity(result.getBlockPos()));
-                return;
-            }
-        }
-         */
-
         if (block instanceof SignBlock) {
             WrenchableUtilities.doRotationBehavior(world, player, result);
         } else if (block instanceof WallSignBlock) {
