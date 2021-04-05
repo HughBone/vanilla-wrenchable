@@ -1,7 +1,7 @@
-package com.zundrel.wrenchable.block.defaults;
+package com.hughbone.wrenchable.block.defaults;
 
-import com.zundrel.wrenchable.WrenchableUtilities;
-import com.zundrel.wrenchable.block.PropertyListener;
+import com.hughbone.wrenchable.WrenchableUtilities;
+import com.hughbone.wrenchable.block.PropertyListener;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.state.property.Properties;
 import net.minecraft.util.hit.BlockHitResult;

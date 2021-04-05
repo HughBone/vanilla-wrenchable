@@ -1,4 +1,4 @@
-package com.zundrel.wrenchable.wrench;
+package com.hughbone.wrenchable.wrench;
 
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;

@@ -1,9 +1,9 @@
-package com.zundrel.wrenchable;
+package com.hughbone.wrenchable;
 
-import com.zundrel.wrenchable.block.BlockListener;
-import com.zundrel.wrenchable.block.PropertyListener;
-import com.zundrel.wrenchable.wrench.Wrench;
-import com.zundrel.wrenchable.block.BlockWrenchable;
+import com.hughbone.wrenchable.block.BlockListener;
+import com.hughbone.wrenchable.block.PropertyListener;
+import com.hughbone.wrenchable.wrench.Wrench;
+import com.hughbone.wrenchable.block.BlockWrenchable;
 import net.fabricmc.fabric.api.event.player.UseBlockCallback;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.item.ItemStack;

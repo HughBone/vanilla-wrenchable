@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "com.zundrel.wrenchable.mixin",
+  "package": "com.hughbone.wrenchable.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
   ],

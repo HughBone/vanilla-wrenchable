@@ -1,6 +1,6 @@
-package com.zundrel.wrenchable.block.defaults;
+package com.hughbone.wrenchable.block.defaults;
 
-import com.zundrel.wrenchable.block.PropertyListener;
+import com.hughbone.wrenchable.block.PropertyListener;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.enums.SlabType;

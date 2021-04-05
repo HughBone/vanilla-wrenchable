@@ -1,6 +1,6 @@
-package com.zundrel.wrenchable.block.defaults;
+package com.hughbone.wrenchable.block.defaults;
 
-import com.zundrel.wrenchable.block.InstanceListener;
+import com.hughbone.wrenchable.block.InstanceListener;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.world.World;
