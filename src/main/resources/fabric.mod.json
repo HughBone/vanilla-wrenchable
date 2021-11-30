@@ -30,7 +30,5 @@
     "fabric": "*"
   },
   "custom": {
-    "modmenu:api": true,
-    "modmenu:clientsideOnly": false
   }
 }
